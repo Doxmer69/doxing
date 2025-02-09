@@ -1,0 +1,570 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Doxmer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+		<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/logodefi.png" />
+</head>
+<body class="homepage is-preload">
+	<div id="page-wrapper">
+			<!-- Header -->
+			<div id="header">
+				<!-- Inner -->
+				<div class="inner">
+					<header>
+		<!-- Reemplazando el texto "Doxmer" por una imagen -->
+				<head>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo para la animación de aparición suave */
+        #logo {
+            opacity: 0; /* Inicia invisible */
+            transform: translateY(-20px); /* Desplaza hacia arriba inicialmente */
+            animation: fadeIn 1s ease-in-out forwards; /* Aplica la animación */
+        }
+
+        /* Definición de la animación */
+        @keyframes fadeIn {
+            to {
+                opacity: 1; /* Termina visible */
+                transform: translateY(0); /* Vuelve a su posición original */
+            }
+        }
+    </style>
+</head>
+    <h1 style="text-align: center;">
+        <a href="#" id="logo-container" onclick="event.preventDefault();" style="display: inline-block; max-width: 200px;">
+            <img id="logo" src="images/logodefi.png" alt="Doxmer" style="width: 100%; height: auto;">
+        </a>
+    </h1>
+    <p style="text-align: center; font-size: 28px; margin-top: 10px; font-family: 'Orbitron', sans-serif; letter-spacing: 2px; text-transform: uppercase;">Doxmer 69</p>         
+</body>
+ <div style="text-align: center; margin-top: 15px;">
+</div>
+
+						<hr />
+<p class="fade-in">La mejor plataforma para sacar información de cualquier persona al nivel nacional de manera rápida y eficaz, con tan solo sus nombres, número de celular o DNI.</p>
+
+<footer>
+    <!-- Nuevo botón que lleva directamente a los servicios -->
+    <a href="#services" class="button circled scrolly">Servicios</a>
+</footer>
+
+				</div>
+			
+				<!-- Contenedor de la imagen modal -->
+				<div id="imageModal" class="modal">
+					<div class="modal-content">
+						<span class="close" onclick="closeImage()">×</span>
+						<img src="https://i.postimg.cc/1t4WSPHJ/masserivicios.png" alt="Servicios">
+					</div>
+				</div>
+				<!-- Logo Yape en la esquina inferior derecha -->
+
+<!-- Modal Yape -->
+<div id="yapeModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 1000; text-align: center;">
+    <div style="background: rgb(215, 211, 211); border-radius: 10px; padding: 20px; margin: 10% auto; max-width: 300px; position: relative;">
+        <span onclick="closeYapeModal()" style="position: absolute; top: 10px; right: 15px; font-size: 1.5em; color: #555; cursor: pointer;">&times;</span>
+        
+        <!-- Texto introductorio -->
+        <p style="color: #2f2f2f; font-family: Arial, sans-serif; font-size: 1em; margin-bottom: 10px;">
+            <strong>ﾠDespués de elegir tu servicio</strong>
+        </p>
+        
+        <!-- Título del modal -->
+        <h3 style="color: #b146ad; margin-bottom: 15px;">Escanea el QR en el YAPE o BIM</h3>
+        
+        <!-- Imagen del QR (corregida) -->
+        <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+            <img src="images/bimqr.jpeg" alt="Código QR Yape" style="max-width: 100%; height: auto; border-radius: 10px;">
+        </div>
+
+        <!-- Espacio entre la imagen y el número de celular -->
+        <div style="margin-top: 15px;"></div>
+
+        <!-- Número de celular -->
+        <p style="color: #555; font-family: Arial, sans-serif; font-size: 1em;">Envia tu comprobante de pago y de inmediato su pedido estará listo.<strong></strong></p>
+    </div>
+</div>
+</div>
+
+<!-- Scripts -->
+<script>
+    function openYapeModal() {
+        document.getElementById('yapeModal').style.display = 'block';
+    }
+    function closeYapeModal() {
+        document.getElementById('yapeModal').style.display = 'none';
+    }
+</script>
+			
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="#">Hola, Bienvenido🎉 Descubre y disfruta de todo lo que tenemos para ofrecer 🚀. Por la compra de 3 servicios, llevate el 4to a mitad de precio! (aplica en cualquier serivicio)</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+						</nav>
+
+				</div>
+
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2>A continuación podrá observar los <strong>servicios</strong> de doxeo más destacados a detalle, hay mucha variedad para que puedas elegir según tu <strong>necesidad</strong></h2>
+						<p>
+							Toda información sacada es 100% seguro y confidencial, ningun dato será vulnerado o compartido a otra persona.
+						</p>
+					</header>
+				</section>
+
+				<script>
+					function enviarTelegram(producto, precio) {
+						const username = "doxmer69"; // Reemplaza con el @username de Telegram sin el "@"
+						const mensaje = `Hola, quiero este servicio: ${producto} por s/. ${precio}`;
+						
+						// Telegram no permite mensajes prellenados, solo abrir el chat
+						const url = `https://t.me/${username}`;
+						
+						window.open(url, '_blank'); // Abre Telegram en una nueva pestaña
+					}
+				</script>	
+
+			<!-- Carousel -->
+				<section class="carousel">
+					<div class="reel">
+
+					     <section id="services"></section>
+						<article>
+							<a href="#no" class="image featured"><img src="images/dniactu.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Foto + DNI info</a></h3>
+							</header>
+							<p>Se muestra su foto de rostro, su número de DNI, fecha de nacimiento, estatura, donde nació, estado civil, nombre de sus padres, dirección y ubigeos</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 3
+							</div>
+						</p>
+					        <p><button onclick="enviarTelegram('Foto + DNI info', 4)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<style>
+							/* Animación de rebote para el precio */
+							@keyframes bounce {
+								0%, 100% {
+									transform: translateY(0);
+								}
+								50% {
+									transform: translateY(-10px);
+								}
+							}
+						
+							/* Animación de latido para los botones */
+							@keyframes pulse {
+								0%, 100% {
+									transform: scale(1);
+								}
+								50% {
+									transform: scale(1.1);
+								}
+							}
+						
+							/* Animación para todos los precios */
+							.price-tag {
+								background: linear-gradient(90deg, rgba(255, 87, 34, 0.85), rgba(255, 152, 0, 0.85));
+								color: #fff;
+								font-size: 0.75em;
+								font-weight: bold;
+								padding: 4px 6px;
+								text-align: center;
+								border-radius: 8px;
+								display: inline-block;
+								box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+								text-transform: uppercase;
+								letter-spacing: 1px;
+								animation: bounce 2s infinite;
+							}
+						
+							/* Animación para todos los botones de pedir ahora */
+							.btn-pedir-ahora {
+								animation: pulse 3.5s infinite;
+							}
+						</style>
+						<article>
+							<a href="#no" class="image featured"><img src="images/huellas.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Foto + DNI info + firma + huellas digitales</a></h3>
+							</header>
+							<p>Se muestra su foto de rostro, su número de DNI, firma, huellas digitales (cada foto por separado), fecha de nacimiento, estatura, donde nació, estado civil, nombre de sus padres, dirección, ubigeos, profesión y sueldo.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 4
+							</div>
+							<p>
+								<p><button onclick="enviarTelegram('Foto + DNI info + firma + huellas digitales', 6)" class="btn-pedir-ahora">Pedir ahora</button></p>	
+							</p>
+							
+						</article>
+					        <article>
+							<a href="#no" class="image featured"><img src="images/cel.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Información con número de celular (titular)</a></h3>
+							</header>
+							<p>Con tan solo número de celular podrás saber su foto de rostro, su número de DNI, fecha de nacimiento, estatura, donde nació, estado civil, nombre de sus padres, dirección, y ubigeos.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 5
+							</div>
+							<p><button onclick="enviarTelegram('Información con número de celular (titular)', 7)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<article>
+							<a href="#no" class="image featured"><img src="images/arbolvisu.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Árbol genealógico visual</a></h3>
+							</header>
+							<p>Se muestra todos los familiares cercanos, incluyendo sus rostros, nombres completos, número de DNI, edad y parentesco.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 8
+							</div>
+							<p><button onclick="enviarTelegram('Árbol genealógico visual', 15)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+					
+						<article>
+							<a href="#no" class="image featured"><img src="images/arbolg.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Árbol genealógico en texto</a></h3>
+							</header>
+							<p>Se muestra a todos los familiares cercanos en texto, nombres completos, número de DNI, fecha de nacimiento y parentesco.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 4
+							</div>
+							<p><button onclick="enviarTelegram('Árbol genealógico en texto', 5)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<article>
+							<a href="#no" class="image featured"><img src="images/trabajos.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Registro laboral (cuánto gana y dónde trabajó)</a></h3>
+							</header>
+							<p>Podrás ver todos los trabajos en el cual ha estado en planilla, cuánto gana, el mes que más generó dinero y el que menos, la fecha y la empresa o lugar donde consiguió el sueldo.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 4
+							</div>
+							<p><button onclick="enviarTelegram('Registro laboral (cuánto gana y dónde trabajó)', 5)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+					
+						<article>
+							<a href="#no" class="image featured"><img src="images/dniperu.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#no">DNI virtual (azul o amarillo)</a></h3>
+							</header>
+							<p>Duplicado del DNI de la parte delantera y posterior con todos los datos correspondientes.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 5
+							</div>
+							<p><button onclick="enviarTelegram('DNI virtual (azul o amarillo)', 8)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+					
+						<article>
+							<a href="#no" class="image featured"><img src="images/c4.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Documento C4</a></h3>
+							</header>
+							<p>Se muestra una imagen que contiene toda la información del DNI incluyendo huellas y firma.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 5
+							</div>
+							<p><button onclick="enviarTelegram('Documento C4', 8)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+					
+						<article>
+							<a href="#no" class="image featured"><img src="images/propi.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Sunarp Propiedades</a></h3>
+							</header>
+							<p>Se muestran todas las propiedades registradas a su nombre en la Sunarp, incluyendo bienes inmuebles como terrenos, casas y departamentos, entre otros.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 4
+							</div>
+							<p><button onclick="enviarTelegram('Sunarp Propiedades', 5)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<article>
+							<a href="#no" class="image featured"><img src="images/deudas.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Deudas (SBS)</a></h3>
+							</header>
+							<p>Se muetran todas las deudas de diferentes bancos que la persona registra, la cantidad de deuda, tipo de crédito y código de cuenta.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 4
+							</div>
+							<p><button onclick="enviarTelegram('Deudas (SBS)', 5)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<article>
+							<a href="#no" class="image featured"><img src="images/migratorio.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#no">Reporte migratorio en PDF</a></h3>
+							</header>
+							<p>Podrás encontrar datos personales del migrante, fecha de nacimiento y número de DNI, además del historial de movimientos migratorios con fechas de entrada y salida del país o los países visitados con el tipo de entradas y salidas, como turista, residente o laboral.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 8
+							</div>
+							<p><button onclick="enviarTelegram('Reporte migratorio en PDF', 7)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<article>
+							<a href="#no" class="image featured"><img src="images/antecendentes.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Casos fiscales en texto</a></h3>
+							</header>
+							<p>Podrás ver si la persona cuenta con denuncias registradas o es denunciante, su participación en la denuncia, fecha de la denuncia, distrito jurídico, especificación del delito, etc. </p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 5
+							</div>
+							<p><button onclick="enviarTelegram('Casos fiscales en texto', 7)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<article>
+							<a href="#no" class="image featured"><img src="images/fiscalia.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Casos fiscales detallado en PDF</a></h3>
+							</header>
+							<p>Podrás ver si la persona cuenta con denuncias registradas o es denunciante, en un documento original (copia certificada) de la PNP, contiene tipificación, lugar del hecho, denunciante, agraviado, implicado y contenido.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 10
+							</div>
+							<p><button onclick="enviarTelegram('Casos fiscales detallado en PDF', 15)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<article>
+							<a href="#no" class="image featured"><img src="images/placaa.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Consulta mediante placa vehicular en texto</a></h3>
+							</header>
+							<p>Mediante un número de placa podrás saber el DNI y foto del titular, donde vive, detalles del vehiculo: número de partida, año de modelo, fecha de inscripción, marca, modelo, color, número de motor, número de serie, categoria, etc.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 5
+							</div>
+							<p><button onclick="enviarTelegram('Consulta mediante placa vehicular', 6)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<article>
+							<a href="#no" class="image featured"><img src="images/tive.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">TIVE vehicular con QR en PDF</a></h3>
+							</header>
+							<p>Se muestran todos los datos del vehiculo mendiante la placa, con su respectivo QR original.</p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								S/. 10
+							</div>
+							<p><button onclick="enviarTelegram('TIVE vehicular con QR', 12)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<article>
+							<a href="#no" class="image featured"><img src="images/completo.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">Doxeo completo a una persona</a></h3>
+							</header>
+							<p>Incluye estos servicios: Foto de rostro + DNI info + direcciones + correos + sueldos + trabajos + vehículos a su nombre + teléfonos + árbol genealógico + miebros del hogar + sunat y AFPS.</p>
+							
+							<div class="price-tag" style="background: linear-gradient(45deg, rgba(255, 0, 0, 0.9), rgba(0, 0, 0, 0.9)); color: #fff; font-size: 0.8em; font-weight: bold; padding: 6px 10px; text-align: center; border-radius: 12px; display: inline-block; box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5); text-transform: uppercase; letter-spacing: 2px; animation: glow 2s infinite alternate, floatPrice 2s ease-in-out infinite;">
+								<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 12</span>
+							</div>
+						
+							<p><button onclick="enviarTelegram('Doxeo completo a una persona', 20)" class="btn-pedir-ahora">Pedir ahora</button></p>
+						</article>
+						<style>
+						@keyframes glow {
+							0% {
+								box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5), 0 0 10px rgba(255, 99, 71, 0.5);
+							}
+							50% {
+								box-shadow: 0 8px 20px rgba(255, 165, 0, 0.7), 0 0 15px rgba(255, 165, 0, 0.7);
+							}
+							100% {
+								box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5), 0 0 10px rgba(255, 99, 71, 0.5);
+							}
+						}
+						
+						@keyframes floatPrice {
+							0% {
+								transform: translateY(0);
+							}
+							50% {
+								transform: translateY(-3px);
+							}
+							100% {
+								transform: translateY(0);
+							}
+						}
+						</style>
+						<article>
+							<a href="#no" class="image featured"><img src="images/antecional.png" alt="" /></a>
+							<header>
+								<h3><a href="#no">¡Y mucho más!</a></h3>
+							</header>
+							<p>Si no encuentras lo que estas buscando, no te preocupes puedes consultar y recibir asesoría gratuitamente. </p>
+							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+								GRATIS
+							</div>
+							<p><a href="https://t.me/doxmer69" class="btn-pedir-ahora">Consultar ahora</a></p>
+						</article>
+
+					</div>
+				</section>
+				<!-- Features -->
+				<div class="wrapper style1">
+
+					<section id="features" class="container special actas-section">
+						<header>
+							<h2>ACTAS</h2>
+							<p>En la sección actas podrás encontrar:</p>
+						</header>
+						<div class="row">
+							<!-- ACTA DE NACIMIENTO -->
+							<article class="col-4 col-12-mobile special">
+								<a href="#no" class="image featured"><img src="images/actana.png" alt="Acta de Nacimiento" /></a>
+								<header>
+									<h3><a href="#no">ACTA DE NACIMIENTO</a></h3>
+									<div class="price-tag" style="background: linear-gradient(45deg, rgba(61, 126, 133, 0.9), rgba(0, 0, 0, 0.9)); color: #fff; font-size: 0.8em; font-weight: bold; padding: 6px 10px; text-align: center; border-radius: 12px; display: inline-block; box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5); text-transform: uppercase; letter-spacing: 2px; animation: glow 2s infinite alternate, floatPrice 2s ease-in-out infinite;">
+										<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 12</span>
+									</div>
+								</header>
+								<p>
+									Contiene nombre completo, fecha de nacimiento, lugar de nacimiento, hora de nacimiento (en algunos casos), nombres completos de los padres, nacionalidad de los padres, domicilio de los padres (opcional), número del acta, oficialía o juzgado del registro civil, fecha de registro, firma del oficial del registro civil, sello oficial del registro civil, y observaciones o anotaciones posteriores.
+								</p>
+								<p class="btn-container-actas">
+									<a href="https://t.me/doxmer69?text=Hola,%20quiero%20pedir%20un%20Acta%20de%20Nacimiento%20por%20s/.%2012" class="btn-pedir-ahora-actas">Pedir ahora</a>
+								</p>
+							</article>
+							<style>
+								@keyframes glow {
+									0% {
+										box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5), 0 0 10px rgba(255, 99, 71, 0.5);
+									}
+									50% {
+										box-shadow: 0 8px 20px rgba(255, 165, 0, 0.7), 0 0 15px rgba(255, 165, 0, 0.7);
+									}
+									100% {
+										box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5), 0 0 10px rgba(255, 99, 71, 0.5);
+									}
+								}
+								
+								@keyframes floatPrice {
+									0% {
+										transform: translateY(0);
+									}
+									50% {
+										transform: translateY(-3px);
+									}
+									100% {
+										transform: translateY(0);
+									}
+								}
+								</style>
+							<!-- ACTA DE MATRIMONIO -->
+							<article class="col-4 col-12-mobile special">
+								<a href="#no" class="image featured"><img src="images/actamatri.png" alt="Acta de Matrimonio" /></a>
+								<header>
+									<h3><a href="#no">ACTA DE MATRIMONIO</a></h3>
+							        <div class="price-tag" style="background: linear-gradient(45deg, rgba(61, 126, 133, 0.9), rgba(13, 25, 15, 0.9)); color: #fff; font-size: 0.8em; font-weight: bold; padding: 6px 10px; text-align: center; border-radius: 12px; display: inline-block; box-shadow: 0 8px 16px rgba(36, 168, 45, 0.5); text-transform: uppercase; letter-spacing: 2px; animation: glow 2s infinite alternate, floatPrice 2s ease-in-out infinite;">
+										<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 12</span>
+									</div>
+								</header>
+								<p>
+									Contiene los nombres completos de los contrayentes, su fecha y lugar de nacimiento, estado civil previo, nacionalidad, domicilio, la fecha y lugar de celebración del matrimonio, los nombres completos de los padres de los contrayentes, el nombre del juez u oficial del registro civil que celebró el matrimonio, el número de acta o folio, el sello oficial del registro civil, la firma del juez u oficial del registro, así como la firma de los contrayentes y, en algunos casos, de los testigos.
+								</p>
+								<p class="btn-container-actas">
+									<a href="https://t.me/doxmer69?text=Hola,%20quiero%20pedir%20un%20Acta%20de%20Matrimonio%20por%20s/.%2012" class="btn-pedir-ahora-actas">Pedir ahora</a>
+								</p>
+							</article>
+							
+					
+							<!-- ACTA DE DEFUNCIÓN -->
+							<article class="col-4 col-12-mobile special">
+								<a href="#no" class="image featured"><img src="images/actadefu.png" alt="Acta de Defunción" /></a>
+								<header>
+									<h3><a href="#no">ACTA DE DEFUNCIÓN</a></h3>
+									<div class="price-tag" style="background: linear-gradient(45deg, rgba(61, 126, 133, 0.9), rgba(0, 0, 0, 0.9)); color: #fff; font-size: 0.8em; font-weight: bold; padding: 6px 10px; text-align: center; border-radius: 12px; display: inline-block; box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5); text-transform: uppercase; letter-spacing: 2px; animation: glow 2s infinite alternate, floatPrice 2s ease-in-out infinite;">
+										<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 12</span>
+									</div>
+								</header>
+								<p>
+									Contiene el nombre completo del fallecido, la fecha y lugar de nacimiento, la fecha y hora de la defunción, el lugar de la defunción, la causa de la muerte, el estado civil, el nombre del cónyuge o concubino/a si aplica, los nombres completos de los padres, el domicilio del fallecido, el nombre y firma del declarante, el nombre del juez u oficial del registro civil que inscribió la defunción, el número de acta o folio, el sello oficial del registro civil y la fecha de registro de la defunción.
+								</p>
+								<p class="btn-container-actas">
+									<a href="https://t.me/doxmer69?text=Hola,%20quiero%20pedir%20un%20Acta%20de%20Defunción%20por%20s/.%2012" class="btn-pedir-ahora-actas">Pedir ahora</a>
+								</p>
+							</article>
+						</div>
+					</section>
+					<footer style="text-align: center;"> <!-- Cambiar estilo directamente aquí -->
+						<a href="#no" class="button circled scrolly" onclick="showImage()">Más servicios</a>
+					</footer>
+				</article>
+			</div>	
+
+				</div>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+
+							
+
+							
+										
+								</section>
+
+							<!-- Photos -->
+								
+								</section>
+
+						</div>
+						<hr />
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Contact -->
+								<section class="contact">
+									<header>
+										<h3>Gracias por visitar 🌟</h3>
+									</header>
+									<p>Si no encontraste lo que quieres no te olvides en consultar, hay de TODO, Invita a un amigo! Si menciona que viene de tu parte y realiza una compra, ganas s/. 1 de descuento en tu proxima compra. ¡Es acumulable! 🎊🔥</p>
+									<ul class="icons">
+										<li><a href="https://www.instagram.com/invites/contact/?igsh=zpyhep2ayadj&utm_content=2oi40zq" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.youtube.com/@DataPeru69" class="icon brands fa-youtube"><span class="label">youtube</span></a></li>
+									</ul>
+								</section>
+								
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>&copy; Todos los derechos reservados </li><li>DOXMER69 </a></li>
+										</ul>
+									</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
