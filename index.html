@@ -152,12 +152,17 @@
 							<header>
 								<h3><a href="#no">Foto + DNI info</a></h3>
 							</header>
-							<p>Se muestra su foto de rostro, su número de DNI, fecha de nacimiento, estatura, donde nació, estado civil, nombre de sus padres, dirección y ubigeos</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 3
 							</div>
-						</p>
-					        <p><button onclick="enviarTelegram('Foto + DNI info', 4)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Se muestra su foto de rostro, su número de DNI, fecha de nacimiento, estatura, donde nació, estado civil, nombre de sus padres, dirección y ubigeos.</li>
+								
+							</ul>
 						</article>
 						<style>
 							/* Animación de rebote para el precio */
@@ -206,36 +211,52 @@
 							<header>
 								<h3><a href="#no">Foto + DNI info + firma + huellas digitales</a></h3>
 							</header>
-							<p>Se muestra su foto de rostro, su número de DNI, firma, huellas digitales (cada foto por separado), fecha de nacimiento, estatura, donde nació, estado civil, nombre de sus padres, dirección, ubigeos, profesión y sueldo.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 4
 							</div>
-							<p>
-								<p><button onclick="enviarTelegram('Foto + DNI info + firma + huellas digitales', 6)" class="btn-pedir-ahora">Pedir ahora</button></p>	
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
 							</p>
-							
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Se muestra su foto de rostro, su número de DNI, firma, huellas digitales (cada foto por separado), fecha de nacimiento, estatura, donde nació, estado civil, nombre de sus padres, dirección, ubigeos, profesión y sueldo.</li>
+								
+							</ul>
 						</article>
 					        <article>
 							<a href="#no" class="image featured"><img src="images/cel.png" alt="" /></a>
 							<header>
 								<h3><a href="#no">Información con número de celular (titular)</a></h3>
 							</header>
-							<p>Con tan solo número de celular podrás saber su foto de rostro, su número de DNI, fecha de nacimiento, estatura, donde nació, estado civil, nombre de sus padres, dirección, y ubigeos.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 5
 							</div>
-							<p><button onclick="enviarTelegram('Información con número de celular (titular)', 7)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Con tan solo número de celular podrás saber su foto de rostro, su número de DNI, fecha de nacimiento, estatura, donde nació, estado civil, nombre de sus padres, dirección, y ubigeos.</li>
+								
+							</ul>						
 						</article>
 						<article>
 							<a href="#no" class="image featured"><img src="images/arbolvisu.png" alt="" /></a>
 							<header>
 								<h3><a href="#no">Árbol genealógico visual</a></h3>
 							</header>
-							<p>Se muestra todos los familiares cercanos, incluyendo sus rostros, nombres completos, número de DNI, edad y parentesco.</p>
+							
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 8
 							</div>
-							<p><button onclick="enviarTelegram('Árbol genealógico visual', 15)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Se muestra todos los familiares cercanos, incluyendo sus rostros, nombres completos, número de DNI, edad y parentesco.</li>
+								
+							</ul>						
 						</article>
 					
 						<article>
@@ -243,22 +264,35 @@
 							<header>
 								<h3><a href="#no">Árbol genealógico en texto</a></h3>
 							</header>
-							<p>Se muestra a todos los familiares cercanos en texto, nombres completos, número de DNI, fecha de nacimiento y parentesco.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 4
 							</div>
-							<p><button onclick="enviarTelegram('Árbol genealógico en texto', 5)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Se muestra a todos los familiares cercanos en texto, nombres completos, número de DNI, fecha de nacimiento y parentesco.</li>
+								
+							</ul>						
 						</article>
 						<article>
 							<a href="#no" class="image featured"><img src="images/trabajos.png" alt="" /></a>
 							<header>
 								<h3><a href="#no">Registro laboral (cuánto gana y dónde trabajó)</a></h3>
 							</header>
-							<p>Podrás ver todos los trabajos en el cual ha estado en planilla, cuánto gana, el mes que más generó dinero y el que menos, la fecha y la empresa o lugar donde consiguió el sueldo.</p>
+							
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 4
 							</div>
-							<p><button onclick="enviarTelegram('Registro laboral (cuánto gana y dónde trabajó)', 5)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Podrás ver todos los trabajos en el cual ha estado en planilla, cuánto gana, el mes que más generó dinero y el que menos, la fecha y la empresa o lugar donde consiguió el sueldo.</li>
+								
+							</ul>						
 						</article>
 					
 						<article>
@@ -266,11 +300,17 @@
 							<header>
 								<h3><a href="#no">DNI virtual (azul o amarillo)</a></h3>
 							</header>
-							<p>Duplicado del DNI de la parte delantera y posterior con todos los datos correspondientes.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 5
 							</div>
-							<p><button onclick="enviarTelegram('DNI virtual (azul o amarillo)', 8)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Duplicado del DNI de la parte delantera y posterior con todos los datos correspondientes.</li>
+								
+							</ul>						
 						</article>
 					
 						<article>
@@ -278,11 +318,17 @@
 							<header>
 								<h3><a href="#no">Documento C4</a></h3>
 							</header>
-							<p>Se muestra una imagen que contiene toda la información del DNI incluyendo huellas y firma.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 5
 							</div>
-							<p><button onclick="enviarTelegram('Documento C4', 8)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Se muestra una imagen que contiene toda la información del DNI incluyendo huellas y firma.</li>
+								
+							</ul>						
 						</article>
 					
 						<article>
@@ -290,90 +336,136 @@
 							<header>
 								<h3><a href="#no">Sunarp Propiedades</a></h3>
 							</header>
-							<p>Se muestran todas las propiedades registradas a su nombre en la Sunarp, incluyendo bienes inmuebles como terrenos, casas y departamentos, entre otros.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 4
 							</div>
-							<p><button onclick="enviarTelegram('Sunarp Propiedades', 5)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Se muestran todas las propiedades registradas a su nombre en la Sunarp, incluyendo bienes inmuebles como terrenos, casas y departamentos, entre otros.</li>
+								
+							</ul>						
 						</article>
 						<article>
 							<a href="#no" class="image featured"><img src="images/deudas.png" alt="" /></a>
 							<header>
 								<h3><a href="#no">Deudas (SBS)</a></h3>
 							</header>
-							<p>Se muetran todas las deudas de diferentes bancos que la persona registra, la cantidad de deuda, tipo de crédito y código de cuenta.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 4
 							</div>
-							<p><button onclick="enviarTelegram('Deudas (SBS)', 5)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Se muetran todas las deudas de diferentes bancos que la persona registra, la cantidad de deuda, tipo de crédito y código de cuenta.</li>
+								
+							</ul>						
 						</article>
 						<article>
 							<a href="#no" class="image featured"><img src="images/migratorio.jpg" alt="" /></a>
 							<header>
 								<h3><a href="#no">Reporte migratorio en PDF</a></h3>
 							</header>
-							<p>Podrás encontrar datos personales del migrante, fecha de nacimiento y número de DNI, además del historial de movimientos migratorios con fechas de entrada y salida del país o los países visitados con el tipo de entradas y salidas, como turista, residente o laboral.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 8
 							</div>
-							<p><button onclick="enviarTelegram('Reporte migratorio en PDF', 7)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Podrás encontrar datos personales del migrante, fecha de nacimiento y número de DNI, además del historial de movimientos migratorios con fechas de entrada y salida del país o los países visitados con el tipo de entradas y salidas, como turista, residente o laboral.</li>
+								
+							</ul>						
 						</article>
 						<article>
 							<a href="#no" class="image featured"><img src="images/antecendentes.png" alt="" /></a>
 							<header>
 								<h3><a href="#no">Casos fiscales en texto</a></h3>
 							</header>
-							<p>Podrás ver si la persona cuenta con denuncias registradas o es denunciante, su participación en la denuncia, fecha de la denuncia, distrito jurídico, especificación del delito, etc. </p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
-								S/. 5
+								NO DISPONIBLE
 							</div>
-							<p><button onclick="enviarTelegram('Casos fiscales en texto', 7)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Podrás ver si la persona cuenta con denuncias registradas o es denunciante, su participación en la denuncia, fecha de la denuncia, distrito jurídico, especificación del delito, etc.</li>
+								
+							</ul>						
 						</article>
 						<article>
 							<a href="#no" class="image featured"><img src="images/fiscalia.png" alt="" /></a>
 							<header>
 								<h3><a href="#no">Casos fiscales detallado en PDF</a></h3>
 							</header>
-							<p>Podrás ver si la persona cuenta con denuncias registradas o es denunciante, en un documento original (copia certificada) de la PNP, contiene tipificación, lugar del hecho, denunciante, agraviado, implicado y contenido.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 10
 							</div>
-							<p><button onclick="enviarTelegram('Casos fiscales detallado en PDF', 15)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Podrás ver si la persona cuenta con denuncias registradas o es denunciante, en un documento original (copia certificada) de la PNP, contiene tipificación, lugar del hecho, denunciante, agraviado, implicado y contenido a detalle.</li>
+								
+							</ul>						
 						</article>
 						<article>
 							<a href="#no" class="image featured"><img src="images/placaa.png" alt="" /></a>
 							<header>
 								<h3><a href="#no">Consulta mediante placa vehicular en texto</a></h3>
 							</header>
-							<p>Mediante un número de placa podrás saber el DNI y foto del titular, donde vive, detalles del vehiculo: número de partida, año de modelo, fecha de inscripción, marca, modelo, color, número de motor, número de serie, categoria, etc.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
-								S/. 5
+								S/. 6
 							</div>
-							<p><button onclick="enviarTelegram('Consulta mediante placa vehicular', 6)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Mediante un número de placa podrás saber el DNI y foto del titular, donde vive, detalles del vehiculo: número de partida, año de modelo, fecha de inscripción, marca, modelo, color, número de motor, número de serie, categoria, etc.</li>
+
+							</ul>						
 						</article>
 						<article>
 							<a href="#no" class="image featured"><img src="images/tive.png" alt="" /></a>
 							<header>
 								<h3><a href="#no">TIVE vehicular con QR en PDF</a></h3>
 							</header>
-							<p>Se muestran todos los datos del vehiculo mendiante la placa, con su respectivo QR original.</p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								S/. 10
 							</div>
-							<p><button onclick="enviarTelegram('TIVE vehicular con QR', 12)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Se muestran todos los datos del vehiculo mendiante la placa, con su respectivo QR original.</li>
+
+							</ul>						
 						</article>
 						<article>
 							<a href="#no" class="image featured"><img src="images/completo.png" alt="" /></a>
 							<header>
 								<h3><a href="#no">Doxeo completo a una persona</a></h3>
 							</header>
-							<p>Incluye estos servicios: Foto de rostro + DNI info + direcciones + correos + sueldos + trabajos + vehículos a su nombre + teléfonos + árbol genealógico + miebros del hogar + sunat y AFPS.</p>
-							
 							<div class="price-tag" style="background: linear-gradient(45deg, rgba(255, 0, 0, 0.9), rgba(0, 0, 0, 0.9)); color: #fff; font-size: 0.8em; font-weight: bold; padding: 6px 10px; text-align: center; border-radius: 12px; display: inline-block; box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5); text-transform: uppercase; letter-spacing: 2px; animation: glow 2s infinite alternate, floatPrice 2s ease-in-out infinite;">
 								<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 12</span>
 							</div>
-						
-							<p><button onclick="enviarTelegram('Doxeo completo a una persona', 20)" class="btn-pedir-ahora">Pedir ahora</button></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Incluye estos servicios: Foto de rostro + DNI info + direcciones + correos + sueldos + trabajos + vehículos a su nombre + teléfonos + árbol genealógico en texto + miebros del hogar + sunat y AFPS.</li>
+
+							</ul>						
 						</article>
 						<style>
 						@keyframes glow {
@@ -405,15 +497,22 @@
 							<header>
 								<h3><a href="#no">¡Y mucho más!</a></h3>
 							</header>
-							<p>Si no encuentras lo que estas buscando, no te preocupes puedes consultar y recibir asesoría gratuitamente. </p>
 							<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
 								GRATIS
 							</div>
-							<p><a href="https://t.me/doxmer69" class="btn-pedir-ahora">Consultar ahora</a></p>
+							<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+								<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+								<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+							</p>
+							<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+								<li>Si no encuentras lo que estas buscando, no te preocupes puedes consultar y recibir asesoría gratuitamente.</li>
+
+							</ul>						
 						</article>
 
 					</div>
 				</section>
+
 				<!-- Features -->
 				<div class="wrapper style1">
 
@@ -429,11 +528,11 @@
 								<header>
 									<h3><a href="#no">ACTA DE NACIMIENTO</a></h3>
 									<div class="price-tag" style="background: linear-gradient(45deg, rgba(61, 126, 133, 0.9), rgba(0, 0, 0, 0.9)); color: #fff; font-size: 0.8em; font-weight: bold; padding: 6px 10px; text-align: center; border-radius: 12px; display: inline-block; box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5); text-transform: uppercase; letter-spacing: 2px; animation: glow 2s infinite alternate, floatPrice 2s ease-in-out infinite;">
-										<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 12</span>
+										<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 10</span>
 									</div>
 								</header>
 								<p>
-									Contiene nombre completo, fecha de nacimiento, lugar de nacimiento, hora de nacimiento (en algunos casos), nombres completos de los padres, nacionalidad de los padres, domicilio de los padres (opcional), número del acta, oficialía o juzgado del registro civil, fecha de registro, firma del oficial del registro civil, sello oficial del registro civil, y observaciones o anotaciones posteriores.
+									Se muestra una copia original del acta de nacimiento en formato PDF.								
 								</p>
 								<p class="btn-container-actas">
 									<a href="https://t.me/doxmer69?text=Hola,%20quiero%20pedir%20un%20Acta%20de%20Nacimiento%20por%20s/.%2012" class="btn-pedir-ahora-actas">Pedir ahora</a>
@@ -470,11 +569,11 @@
 								<header>
 									<h3><a href="#no">ACTA DE MATRIMONIO</a></h3>
 							        <div class="price-tag" style="background: linear-gradient(45deg, rgba(61, 126, 133, 0.9), rgba(13, 25, 15, 0.9)); color: #fff; font-size: 0.8em; font-weight: bold; padding: 6px 10px; text-align: center; border-radius: 12px; display: inline-block; box-shadow: 0 8px 16px rgba(36, 168, 45, 0.5); text-transform: uppercase; letter-spacing: 2px; animation: glow 2s infinite alternate, floatPrice 2s ease-in-out infinite;">
-										<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 12</span>
+										<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 10</span>
 									</div>
 								</header>
 								<p>
-									Contiene los nombres completos de los contrayentes, su fecha y lugar de nacimiento, estado civil previo, nacionalidad, domicilio, la fecha y lugar de celebración del matrimonio, los nombres completos de los padres de los contrayentes, el nombre del juez u oficial del registro civil que celebró el matrimonio, el número de acta o folio, el sello oficial del registro civil, la firma del juez u oficial del registro, así como la firma de los contrayentes y, en algunos casos, de los testigos.
+									Se muestra una copia original del acta de matrimonio en formato PDF.								
 								</p>
 								<p class="btn-container-actas">
 									<a href="https://t.me/doxmer69?text=Hola,%20quiero%20pedir%20un%20Acta%20de%20Matrimonio%20por%20s/.%2012" class="btn-pedir-ahora-actas">Pedir ahora</a>
@@ -488,11 +587,11 @@
 								<header>
 									<h3><a href="#no">ACTA DE DEFUNCIÓN</a></h3>
 									<div class="price-tag" style="background: linear-gradient(45deg, rgba(61, 126, 133, 0.9), rgba(0, 0, 0, 0.9)); color: #fff; font-size: 0.8em; font-weight: bold; padding: 6px 10px; text-align: center; border-radius: 12px; display: inline-block; box-shadow: 0 8px 16px rgba(255, 99, 71, 0.5); text-transform: uppercase; letter-spacing: 2px; animation: glow 2s infinite alternate, floatPrice 2s ease-in-out infinite;">
-										<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 12</span>
+										<span style="font-size: 1em; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);">S/. 10</span>
 									</div>
 								</header>
 								<p>
-									Contiene el nombre completo del fallecido, la fecha y lugar de nacimiento, la fecha y hora de la defunción, el lugar de la defunción, la causa de la muerte, el estado civil, el nombre del cónyuge o concubino/a si aplica, los nombres completos de los padres, el domicilio del fallecido, el nombre y firma del declarante, el nombre del juez u oficial del registro civil que inscribió la defunción, el número de acta o folio, el sello oficial del registro civil y la fecha de registro de la defunción.
+									Se muestra una copia original del acta de defunción en formato PDF.								
 								</p>
 								<p class="btn-container-actas">
 									<a href="https://t.me/doxmer69?text=Hola,%20quiero%20pedir%20un%20Acta%20de%20Defunción%20por%20s/.%2012" class="btn-pedir-ahora-actas">Pedir ahora</a>
@@ -505,7 +604,336 @@
 					</footer>
 				</article>
 			</div>	
+			<div class="wrapper style1">
 
+				<section id="features" >
+					<header style="text-align: center;">
+						<h2>CUENTAS DE STREAMING</h2>
+					</header>
+					<section class="carousel">
+						<div class="reel">
+				
+
+					<article>
+						<a href="#no" class="image featured"><img src="images/NETFLIX.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">NETFLIX</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 10
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('Netflix', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>📵 No editar, ni eliminar los perfiles.</li>
+							<li>📵 Prohibido cambiar de contraseña.</li>
+							<li>📵 Prohibido ingresar desde un segundo dispositivo.</li>
+							<li>📝Si incumple se detectará y perderá la garantía.</li>
+						</ul>
+					</article>
+					
+					<style>
+						.btn-pedir-ahora {
+							display: block;
+							padding: 10px 20px;
+							font-size: 16px;
+							border: none;
+							background-color: #28a745;
+							color: white;
+							border-radius: 5px;
+							cursor: pointer;
+							font-weight: bold;
+							text-align: center;
+							box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+						}
+						.btn-pedir-ahora:hover {
+							background-color: #218838;
+						}
+						.btn-condiciones {
+							width: 35px;
+							height: 35px;
+							border: none;
+							background-color: #e8efe76b;
+							color: white;
+							font-size: 18px;
+							cursor: pointer;
+							border-radius: 50%;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							font-weight: bold;
+							box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+							padding: 0;
+						}
+						.btn-condiciones:hover {
+							background-color: #efe7e7;
+						}
+					</style>
+					
+					<script>
+						function toggleCondiciones(button) {
+							var texto = button.parentElement.nextElementSibling;
+							texto.style.display = (texto.style.display === 'none') ? 'block' : 'none';
+						}
+					</script>						
+					
+					<style>
+						/* Animación de rebote para el precio */
+						@keyframes bounce {
+							0%, 100% {
+								transform: translateY(0);
+							}
+							50% {
+								transform: translateY(-10px);
+							}
+						}
+					
+						/* Animación de latido para los botones */
+						@keyframes pulse {
+							0%, 100% {
+								transform: scale(1);
+							}
+							50% {
+								transform: scale(1.1);
+							}
+						}
+					
+						/* Animación para todos los precios */
+						.price-tag {
+							background: linear-gradient(90deg, rgba(255, 87, 34, 0.85), rgba(255, 152, 0, 0.85));
+							color: #fff;
+							font-size: 0.75em;
+							font-weight: bold;
+							padding: 4px 6px;
+							text-align: center;
+							border-radius: 8px;
+							display: inline-block;
+							box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							animation: bounce 2.5s infinite;
+						}
+					
+						/* Animación para todos los botones de pedir ahora */
+						.btn-pedir-ahora {
+							animation: pulse 2.5s infinite;
+						}
+					</style>
+				
+					<article>
+						<a href="#no" class="image featured"><img src="images/disney.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">Disney Plus + Star Plus + ESPN</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 10
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('Disney Plus + Star Plus + ESPN', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>📵 Prohibido cambiar de contraseña.</li>
+							<li>📵 Prohibido ingresar desde un segundo dispositivo.</li>
+							<li>📝Si incumple se detectará y perderá la garantía.</li>
+						</ul>
+					</article>
+				
+					<article>
+						<a href="#no" class="image featured"><img src="images/hbo.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">HBO MAX</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 6
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('HBO MAX', 6)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>📵 Prohibido ingresar desde un segundo dispositivo</li>
+							<li>📵 Prohibido cambiar de contraseña.</li>
+							<li>📝Si incumple se detectará y perderá la garantía.</li>
+						</ul>						
+					</article>
+					<article>
+						<a href="#no" class="image featured"><img src="images/primevideo.png" alt="" /></a>
+						<header>
+							<h3><a href="#no">Prime Video</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 6
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('Prime Video', 6)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>📵 Prohibido ingresar desde un segundo dispositivo</li>
+							<li>📵 No modificar nada sin avisar</li>
+							<li>📵 No comprar peliculas</li>
+							<li>📵 No entrar por navegador, solo App</li>
+							<li>📝Si incumple se detectará y perderá la garantía.</li>
+						</ul>							
+					</article>
+					<article>
+						<a href="#no" class="image featured"><img src="images/crunchy.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">Crunchyroll</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 5
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('Crunchyroll', 5)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>📵 Prohibido ingresar desde un segundo dispositivo</li>
+							<li>Solo está permitido poner el número y nombre en su perfil asignado.</li>
+							<li>📵 Prohibido cambiar de contraseña.</li>
+							<li>📝Si incumple se detectará y perderá la garantía.</li>
+						</ul>					
+						</article>
+				
+					<article>
+						<a href="#no" class="image featured"><img src="images/spoty.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">Spotify Premium</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 10
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('Spotify Premium', 10)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>Se te va proporcionar el correo y la contraseña de la cuenta de Spotify o cuenta a dominio, tener en cuenta que la cuenta es 100% renovable.</li>
+							<li>📵 No realizar cambios en la cuenta.</li>
+							<li>📝Si incumple se detectará y perderá la garantía.</li>
+						</ul>					
+						</article>
+				
+					<article>
+						<a href="#no" class="image featured"><img src="images/canvapro.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">Canva Pro</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 5
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('Canva Pro', 5)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Activación inmediata, con tu mismo correo.</li>
+							<li>Sin limitaciones, diseña y disfruta al máximo.</li>
+							<li>1 mes: S/. 5</li>
+							<li>1 año: S/. 30</li>
+						</ul>
+					</article>
+					<article>
+						<a href="#no" class="image featured"><img src="images/ChatGPT-Plus.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#no">Chat GPT Plus</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 20
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('Chat GPT Pro', 20)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>📵 No modifiques ningún dato de la cuenta para garantizar su correcto funcionamiento.</li>
+							<li>Dado que esta es una cuenta compartida, es importante no eliminar el historial para evitar afectar el trabajo de otros usuarios. </li>
+							<li>✅ Todos los beneficios Plus.</li>
+							<li>📝Si incumple se detectará y perderá la garantía.</li>
+						</ul>						
+					</article>
+					<article>
+						<a href="#no" class="image featured"><img src="images/youtube.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">Youtube Premium + Youtube Music</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 8.5
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('Youtube Premium + Youtube Music', 8.5)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>📵 Prohibido ingresar desde un segundo dispositivo</li>
+							<li>📵 No modificar nada sin avisar</li>
+							<li>📝Si incumple se detectará y perderá la garantía.</li>
+						</ul>							
+					</article>
+				
+					<article>
+						<a href="#no" class="image featured"><img src="images/capcup.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">CapCut Pro</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 13
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('CapCut Pro', 12)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>Usa Iniciar sesión con correo electrónico.</li>
+							<li>📵 No vincules con Google.</li>
+							<li>📵 No modifiques el perfil, ni la contraseña, ni método de pago, ni vincules redes sociales.</li>
+							<li>📝Si incumple se detectará y perderá la garantía.</li>
+						</ul>						
+					</article>
+				
+					<article>
+						<a href="#no" class="image featured"><img src="images/turnitin.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">Turnitin</a></h3>
+						</header>
+						<div class="price-tag" style="background: linear-gradient(90deg, rgba(20, 149, 39, 0.85), rgba(40, 115, 77, 0.85)); color: #ffffff; font-size: 0.75em; font-weight: bold; padding: 4px 6px; text-align: center; border-radius: 8px; display: inline-block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); text-transform: uppercase; letter-spacing: 1px;">
+							S/. 20
+						</div>
+						<p style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+							<button onclick="enviarTelegram('Turnitin', 20)" class="btn-pedir-ahora">Pedir ahora</button>
+							<button class="btn-condiciones" onclick="toggleCondiciones(this)">❗</button>
+						</p>
+						<ul class="condiciones-texto" style="display: none; font-size: 0.75em; color: #555; margin-top: 8px; text-align: left; padding: 10px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); list-style-type: disc; padding-left: 20px;">
+							<li>Servicio de 30 días 🚀⭐</li>
+							<li>La licencia de uso es para un solo dispositivo.</li>
+							<li>CONSULTAS ILIMITADAS!!</li>
+						</ul>						
+					</article>
+
+					<article>
+						<a href="#no" class="image featured"><img src="images/atencional.jpeg" alt="" /></a>
+						<header>
+							<h3><a href="#no">¡Y mucho más!</a></h3>
+						</header>
+						<p>Si no encuentras tu plataforma favorita, consultame !</p>
+						<p><a href="https://t.me/doxmer69" class="btn-pedir-ahora">Consultar ahora</a></p>
+					</article>
+
+				</div>
+			</section>
 				</div>
 
 			<!-- Footer -->
@@ -535,7 +963,6 @@
 									</header>
 									<p>Si no encontraste lo que quieres no te olvides en consultar, hay de TODO, Invita a un amigo! Si menciona que viene de tu parte y realiza una compra, ganas s/. 1 de descuento en tu proxima compra. ¡Es acumulable! 🎊🔥</p>
 									<ul class="icons">
-										<li><a href="https://www.instagram.com/invites/contact/?igsh=zpyhep2ayadj&utm_content=2oi40zq" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 										<li><a href="https://www.youtube.com/@DataPeru69" class="icon brands fa-youtube"><span class="label">youtube</span></a></li>
 									</ul>
 								</section>
